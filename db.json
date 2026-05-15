@@ -1,0 +1,10 @@
+{
+    "products":[],
+    "users":[
+        {
+        "id":1,
+        "email":"munira@test.com",
+        "password":"12345678"
+        }
+    ]
+}
