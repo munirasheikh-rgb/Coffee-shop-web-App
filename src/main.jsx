@@ -9,6 +9,8 @@ import Navbar from './components/Navbar.jsx'
 import Login from './Pages/Login.jsx'
 import Shop from './Pages/Shop.jsx'
 import { ProductProvider } from './context/ProductContext.jsx'
+import AdminPortal from './Pages/AdminPortal.jsx'
+import Contacts from './Pages/Contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +24,8 @@ createRoot(document.getElementById('root')).render(
     <Route path='/' element={<Home/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/shop' element={<Shop/>}/>
+    <Route path='/adminportal' element={<AdminPortal/>}/>
+    <Route path='/contacts' element={<Contacts/>}/>
      </Routes>
     </BrowserRouter>
     </ProductProvider>

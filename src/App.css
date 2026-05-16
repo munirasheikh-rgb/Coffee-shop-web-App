@@ -25,6 +25,7 @@ border-radius: 100px;
   background-color: saddlebrown;
   align-self: center;
   margin-top: 30px;
+  
 }
 .navbar:hover{
   background-color: bisque;
@@ -49,4 +50,33 @@ transform:translateY(15px);
 }
 .search-input{
   background-color: bisque;
+}
+.form-add{
+  background-color: saddlebrown;
+  margin: 40px;
+  padding: 15px;
+  
+  
+}
+.frm-input{
+  background-color: bisque;
+  border-radius: 8px;
+  margin: 10px;
+ color: black;
+
+}
+.contacts{
+  background-color: bisque;
+  padding: 20px;
+  min-height: 100vh;
+}
+.content-portal{
+  background-color: bisque;
+  min-height: 100vh;
+}
+.card-frm{
+  background-color: azure;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 4px 10px;
 }
