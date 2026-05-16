@@ -1,5 +1,34 @@
 {
-    "products":[],
+    "products":[
+        {
+            "id":1,
+            "name":"Arabica roast",
+            "description":"smooth coffee with rich flavor",
+            "origin":"Kenya",
+            "price":12
+        },
+        {
+            "id":2,
+            "name":"Espresso Blend",
+            "description":"strong bold coffee",
+            "origin":"Ethopia",
+            "price":15
+        },
+         {
+            "id":3,
+            "name":"House Blend",
+            "description":"bold dark coffee,rich in flavor",
+            "origin":"Vietnam",
+            "price":40
+        },
+        {
+            "id":4,
+            "name":"Vanilla bean",
+            "description":"medium roast nutty flavor",
+            "origin":"Colombia",
+            "price":75
+        }
+    ],
     "users":[
         {
         "id":1,

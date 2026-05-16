@@ -35,3 +35,18 @@ border-radius: 100px;
 .navbar{
   background-color: beige;
 }
+.shop{
+  background-color: bisque;
+}
+.row{
+  justify-content: center;
+  margin: 20px;
+}
+.card:hover{
+border:3px brown solid ;
+border-radius: 20px;
+transform:translateY(15px);
+}
+.search-input{
+  background-color: bisque;
+}

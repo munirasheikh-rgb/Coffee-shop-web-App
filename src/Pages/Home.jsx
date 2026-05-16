@@ -1,6 +1,7 @@
+import { useNavigate } from "react-router-dom"
 import coffeeImg from "../assets/coffee.jpg"
 export default function Home(){
-
+const navigate=useNavigate()
     return(
         <section className="hero-section">
         <div className="home">
@@ -9,7 +10,7 @@ export default function Home(){
             style={{maxWidth:"450px"}}/>
         <h1 style={{color:"black"}}>Brew & Go ☕️</h1>
         <p style={{fontStyle:"italic"}}>Luxury in every sip,a better way to start your day! </p>
-        <button className="btn btn-sm  m-4" >Try it Now</button>
+        <button className="btn btn-sm  m-4" onClick={()=>navigate("/shop")}>Try it Now</button>
       </div>
       </section>
     )
