@@ -7,12 +7,13 @@ const{products,setProducts}=useProducts()
 
 const [search,setSearch]=useState("")
 
+//searching products that exactly match the name of the product
 function handleSearch(event){
     // event.preventDefault()
     const value = event.target.value
     setSearch(value)
     fetch(value?`http://localhost:3001/products?name=${value}`
-        :"http://localhost:3001/products"
+        :"http://localhost:3001/products"//displaying products after a successful search
     )
     .then((res)=>res.json())
     .then((data)=>setProducts(data))

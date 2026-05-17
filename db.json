@@ -32,15 +32,8 @@
       "name": "Spanish latte ",
       "description": "smooth milky flavor",
       "origin": "Spain",
-      "price": "20",
+      "price": "23",
       "id": "-m5HL_5uzYw"
-    },
-    {
-      "name": "Americano",
-      "description": "advanced luxurious flavor",
-      "origin": "Korea",
-      "price": "18",
-      "id": "Lu-06xgiAlE"
     }
   ],
   "users": [

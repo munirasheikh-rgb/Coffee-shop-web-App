@@ -12,15 +12,15 @@ import { ProductProvider } from './context/ProductContext.jsx'
 import AdminPortal from './Pages/AdminPortal.jsx'
 import Contacts from './Pages/Contact.jsx'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(//implementing client-side routing
   <StrictMode>
     <ProductProvider>
     <BrowserRouter>
     <Navbar/>
-    <div>
+    <div>                 
      <App />
      </div>
-     <Routes>
+     <Routes> 
     <Route path='/' element={<Home/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/shop' element={<Shop/>}/>

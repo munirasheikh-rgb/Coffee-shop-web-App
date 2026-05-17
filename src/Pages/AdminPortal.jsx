@@ -1,5 +1,5 @@
 import ProductForm from "../components/ProductForm";
-
+//Admin page to add and manage coffee produccts
 export default function AdminPortal(){
 
     return (

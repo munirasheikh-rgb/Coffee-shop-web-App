@@ -12,7 +12,7 @@ price:""
 const{products,setProducts}=useProducts()
 
 const navigate=useNavigate()
-
+//update form state as the user types
 function handleonchage(event){
     setFormData({
         ...formData,
@@ -20,7 +20,7 @@ function handleonchage(event){
     })
 
 }
-
+//Adding new products to the database and the UI
 function handleSubmit(event){
     event.preventDefault()
 fetch("http://localhost:3001/products",{
@@ -31,7 +31,7 @@ fetch("http://localhost:3001/products",{
     },body:JSON.stringify({...formData})
 }).then((res)=>res.json())
    .then((newProduct)=>{setProducts((prevProduct)=>[...prevProduct, newProduct])
-    navigate("/shop")})
+    navigate("/shop")}) //navigating back to the shop after a product Add
    .catch((error)=>{console.log(error)})
 }
 

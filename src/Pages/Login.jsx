@@ -7,12 +7,15 @@ export default function Login(){
         password:"",
     })
 const [message,setMessage]=useState("")
+
 const navigate = useNavigate()
+//handling form input changes
 function handleOnchage(event){
     setformData({...formData,
         [event.target.name]:event.target.value
     })
 }
+//checking and validating password if the user exists
 function handleSubmit(event){ 
     event.preventDefault()
 fetch(`http://localhost:3001/users?email=${formData.email}`)
@@ -21,7 +24,7 @@ fetch(`http://localhost:3001/users?email=${formData.email}`)
     if(data.length>0 && data[0].password === formData.password){
     setMessage("Login successful")
     navigate("/")
-    }else if(data.length>0){setMessage("Wrong Password");
+    }else if(data.length>0){setMessage("Wrong Password");   //user exists but the password is incorrect
 
     }else{setMessage("User not found")}
 
