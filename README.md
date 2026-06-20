@@ -1,16 +1,59 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Coffee Shop Web Application
+The Coffee Shop Web Application, is a single page application(SPA) 
+built with React that allows users to browse coffee products,
+search for items,edit and remove coffee products.
+The application also includes an Admin portal for managing products
+## Features
+- User authentication and login
+- Browse coffee products
+- Search for products
+- Remove items
+- Update item prices
+- Admin portal for product management
+- Client-side routing with React Router
+- Data persistence using JSON
+## Technologies used 🛠️
+- React.js
+- Javasccript
+- HTML5
+- CSS3
+- Bootstrap
+- JSON Server
+- REST APIs
+- Git&Github
+## Installation
+Clone the repository
+```bash
+git clone https://github.com/munirasheikh-rgb/Coffee-shop-web-App.git
+```
+Navigate to the project directory
+```bash
+cd Coffee-Shop-Web-App
+```
+Install dependencies
+```bash
+npm install
+```
+Start the development Server
+```bash
+npm run dev
+```
+Start JSON Server
+```bash
+npx json-server watch db.json --port 3001
+```
+## Project Structure
+- Login Page
+- Home Page
+- Shop Page
+- Admin Portal
+- Contacts
+## Learning Outcomes✍️
+This project strengthened my  understanding of:
+- CRUD Operations
+- State management with Context API
+- Client-side routing
+- React Component architecture
+- Version control using Git and Github
+# Author
+Munira Hassan👩‍💻
